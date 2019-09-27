@@ -1,0 +1,37 @@
+{
+	"name": "scratch",
+	"version": "1.0.0",
+	"main": "cli.js",
+	"license": "UNLICENSED",
+	"private": true,
+	"scripts": {
+		"start": "node cli.js"
+	},
+	"dependencies": {
+		"inquirer": "~7.0.0",
+		"kleur": "~3.0.3",
+		"micro": "~9.3.4",
+		"qs": "~6.9.0",
+		"xcall": "~1.0.4"
+	},
+	"installConfig": {
+		"pnp": true
+	},
+	"devDependencies": {
+		"xo": "~0.25.3"
+	},
+	"xo": {
+		"semicolon": false,
+		"rules": {
+			"generator-star-spacing": 0,
+			"capitalized-comments": 0,
+			"require-yield": 0,
+			"func-names": 0,
+			"curly": [
+				"error",
+				"multi",
+				"consistent"
+			]
+		}
+	}
+}
